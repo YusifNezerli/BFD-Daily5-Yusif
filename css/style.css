@@ -1,0 +1,115 @@
+/* index css style */
+.none{
+    display: none;
+}
+
+.inline{
+    display: inline;
+    color: red;
+}
+
+.blok{
+    display: block;
+    color:red;
+}
+
+.inline-block{
+    display: inline-block;
+    color: red;
+}
+
+
+/* index2 css style */
+
+.name{
+    font-size: 900;
+    margin-left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.job{
+    font-size: 900;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.link{
+    background-color: #9973e1;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.link span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.link span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.link:hover span {
+    padding-right: 25px;
+  }
+  
+.link:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 500px;
+    height: 700px;
+    margin-left: 100px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+/* index3 css style */
+
+.flex{
+    display: flex;
+    border-radius: 10px;
+    
+}
+
+.sekil1{
+   width: 400px;
+   opacity: 0.3;
+   border-radius: 20px;
+ 
+  
+}
+.sekil2{
+    width: 400px;
+    opacity: 0.6;
+    border-radius: 20px;
+    margin-left: 10px;
+  
+}
+.sekil3{
+    width: 400px;
+    opacity: 0.8;
+    border-radius: 20px;
+    margin-left: 10px;
+  
+}
